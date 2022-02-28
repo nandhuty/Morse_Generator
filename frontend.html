@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>MORSE CODE GENERATOR</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+    <body>
+        <h1>TEXT TO MORSE CODE CONVERTER</h1>
+        <hr>
+        <div class="Container d-flex justify-content-around align-items-center">
+            <div>
+                <b>Input</b><br>
+                <textarea id="input" cols="50" rows="20"></textarea>
+            </div>
+            <button class="btn btn-md px-3 btn-outline-dark" onclick="text2morse()">Convert to Morse Code</button>
+            <div>
+                <b>Output</b><br>
+                <textarea id="output" cols="50" rows="20"></textarea>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
